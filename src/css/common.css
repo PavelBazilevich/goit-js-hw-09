@@ -10,9 +10,20 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  background: rgb(0,87,184);
+background: linear-gradient(180deg, rgba(0,87,184,1) 40%, rgba(255,215,0,1) 60%);
+background-repeat:no-repeat;
+width: 50vw;
+height: 50vw;
 }
 
 img {
   display: block;
   max-width: 100%;
 }
+ .timer, .flatpickr-input, .start {
+    font-size: 30px;
+   margin-left: 20vw;
+   margin-top: 30px;
+    
+ }
