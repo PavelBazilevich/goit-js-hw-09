@@ -13,7 +13,9 @@ const getInterval = () => {
     document.body.style.backgroundColor = getRandomHexColor();
   }, 1000);
 };
-
+const stopInterval = () => {
+  clearInterval(timerId);
+};
 const changeColor = e => {
   buttonStop.disabled = false;
   getInterval();
@@ -22,7 +24,7 @@ const changeColor = e => {
 
 const stopChangeColor = e => {
   buttonStart.disabled = false;
-  clearInterval(timerId);
+  stopInterval();
   buttonStop.disabled = true;
 };
 
