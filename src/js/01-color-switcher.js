@@ -5,9 +5,9 @@ const buttonStop = buttonStart.nextElementSibling;
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
+buttonStop.addEventListener('click', stopChangeColor);
 
 buttonStart.addEventListener('click', changeColor);
-buttonStop.addEventListener('click', stopChangeColor);
 
 function changeColor(e) {
   buttonStop.disabled = false;
