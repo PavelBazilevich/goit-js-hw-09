@@ -8,8 +8,6 @@ const form = document.querySelector('.form');
 
 form.addEventListener('submit', submitForm);
 
-// гітхаб не прикалуйся
-
 function submitForm(e) {
   e.preventDefault();
   const step = Number(stepEl.value);
