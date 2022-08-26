@@ -22,4 +22,3 @@ function stopChangeColor(e) {
   clearInterval(changeColorId);
   buttonStop.disabled = true;
 }
-// гытхаб угомонись
