@@ -7,7 +7,7 @@ function getRandomHexColor() {
 }
 
 buttonStop.disabled = true;
-let timerId;
+let timerId = null;
 const getInterval = () => {
   timerId = setInterval(() => {
     document.body.style.backgroundColor = getRandomHexColor();

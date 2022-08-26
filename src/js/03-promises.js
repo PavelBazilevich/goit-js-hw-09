@@ -7,7 +7,7 @@ const amountEl = document.querySelector('[name="amount"]');
 const form = document.querySelector('.form');
 
 form.addEventListener('submit', submitForm);
-
+// 3956236220356993636
 function submitForm(e) {
   e.preventDefault();
   const step = Number(stepEl.value);
